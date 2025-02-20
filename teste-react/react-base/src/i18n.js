@@ -1,0 +1,138 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+i18n.use(initReactI18next).init({
+  resources: {
+    en: {
+      translation: {
+        english: "English",
+        portuguese: "Portuguese",
+        language: "Language: {{language}}",
+        welcome: "Welcome to the project!",
+        Home: "Home",
+        "Sobre Nos": "About Us",
+        Projetos: "Projects",
+        changeLanguage: "Change language",
+        portfolioTitle: "IBMEC Project Portfolio",
+        portfolioDescription:
+          "Discover all the projects carried out at our university across various courses, technologies, and campuses.",
+        projects: "Projects",
+        searchPlaceholder: "Search by title or description",
+        technology: "Technology",
+        campus: "Campus",
+        period: "Period",
+        clearFilters: "Clear Filters",
+        // Project translations
+        project1Title: "Project Reform Laranjeiras",
+        project1Text: "Learn about the Reform Laranjeiras project...",
+        project1Content: "Detailed content about [TITULO] is not available at the moment.",
+        project2Title: "Golden Ball Project in Brazil",
+        project2Text: "Discover the Golden Ball project in Brazil...",
+        project2Content: "Detailed content about [TITULO] is not available at the moment.",
+        project3Title: "Formula 1 in Schools Across the Country",
+        project3Text: "Learn about the Formula 1 in schools project...",
+        project3Content: "Detailed content about [TITULO] is not available at the moment.",
+        project4Title: "New Orkut Creation Project",
+        project4Text: "Discover the New Orkut creation project...",
+        project4Content: "Detailed content about [TITULO] is not available at the moment.",
+        project5Title: "Arduino Circuit Project",
+        project5Text: "Learn about the Arduino circuit project...",
+        project5Content: "Detailed content about [TITULO] is not available at the moment.",
+        project6Title: "New IBMEC Area Project",
+        project6Text: "Discover the new IBMEC area project...",
+        project6Content: "Detailed content about [TITULO] is not available at the moment.",
+        project7Title: "Photoshop Project",
+        project7Text: "Learn about the Photoshop project...",
+        project7Content: "Detailed content about [TITULO] is not available at the moment.",
+        project8Title: "Python Game Project",
+        project8Text: "Discover the Python game project...",
+        project8Content: "Detailed content about [TITULO] is not available at the moment.",
+        project9Title: "IBMEC Lives Project",
+        project9Text: "Learn about the IBMEC Lives project...",
+        project9Content: "Detailed content about [TITULO] is not available at the moment.",
+        project10Title: "Virtual Library Prototype in Figma",
+        project10Text: "Discover the virtual library prototype project in Figma...",
+        project10Content: "Detailed content about [TITULO] is not available at the moment.",
+        projectButton: "Learn More",
+        projectStart: "Start date not specified",
+        projectDuration: "Duration not specified",
+        projectTeam: "Team not specified",
+        projectLocation: "Location not specified",
+        contactForQuestions: "Contact us if you have any questions",
+        aboutProject: "About the Project",
+        projectDetails: "Project Details",
+        loadingProjectInfo: "Loading project information...",
+        infoNotAvailable: "Information not available."
+      }
+    },
+    pt: {
+      translation: {
+        english: "Inglês",
+        portuguese: "Português",
+        language: "Idioma: {{language}}",
+        welcome: "Bem-vindo ao projeto!",
+        Home: "Home",
+        "Sobre Nos": "Sobre Nós",
+        Projetos: "Projetos",
+        changeLanguage: "Alterar idioma",
+        portfolioTitle: "Portfólio de projetos IBMEC",
+        portfolioDescription:
+          "Conheça todos os projetos realizados em nossa faculdade por diversos cursos, tecnologias e unidades.",
+        projects: "Projetos",
+        searchPlaceholder: "Pesquise por título ou descrição",
+        technology: "Tecnologia",
+        campus: "Unidade",
+        period: "Período",
+        clearFilters: "Limpar Filtros",
+        // Project translations
+        project1Title: "Projeto Reforma Laranjeiras",
+        project1Text: "Conheça o projeto de reforma de Laranjeiras...",
+        project1Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project2Title: "Projeto Bola de Ouro no Brasil",
+        project2Text: "Descubra o projeto Bola de Ouro no Brasil...",
+        project2Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project3Title: "Fórmula 1 nas Escolas em Todo o País",
+        project3Text: "Conheça o projeto de Fórmula 1 nas escolas...",
+        project3Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project4Title: "Projeto Criação do Novo Orkut",
+        project4Text: "Descubra o projeto de criação do Novo Orkut...",
+        project4Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project5Title: "Projeto Circuito com Arduino",
+        project5Text: "Conheça o projeto de circuito com Arduino...",
+        project5Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project6Title: "Projeto Nova Área IBMEC",
+        project6Text: "Descubra o projeto da nova área IBMEC...",
+        project6Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project7Title: "Projeto Photoshop",
+        project7Text: "Conheça o projeto Photoshop...",
+        project7Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project8Title: "Projeto Jogo em Python",
+        project8Text: "Descubra o projeto de jogo em Python...",
+        project8Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project9Title: "Projeto IBMEC Lives",
+        project9Text: "Conheça o projeto IBMEC Lives...",
+        project9Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        project10Title: "Protótipo de Biblioteca Virtual no Figma",
+        project10Text: "Descubra o protótipo de biblioteca virtual no Figma...",
+        project10Content: "Conteúdo detalhado sobre o [TITULO] não está disponível no momento.",
+        projectButton: "Saiba Mais",
+        projectStart: "Data de início não especificada",
+        projectDuration: "Duração não especificada",
+        projectTeam: "Equipe não especificada",
+        projectLocation: "Local não especificado",
+        contactForQuestions: "Contate para tirar suas dúvidas",
+        aboutProject: "Sobre o Projeto",
+        projectDetails: "Detalhes do Projeto",
+        loadingProjectInfo: "Carregando informações do projeto...",
+        infoNotAvailable: "Informações não disponíveis."
+      }
+    }
+  },
+  lng: 'en', // Idioma padrão
+  fallbackLng: 'en', // Idioma de fallback
+  interpolation: {
+    escapeValue: false // React já protege contra XSS
+  }
+});
+
+export default i18n;
